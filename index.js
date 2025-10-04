@@ -10,8 +10,16 @@ function main() {
 
   robot.moveMouse(349, 769);
   robot.mouseClick();
+  sleep(1000);
+
+  robot.moveMouse(52, 572);
+  robot.mouseClick();
+  sleep(1000);
+
+  robot.moveMouse(64, 646);
+  robot.mouseClick();
+  sleep(1000);
   console.log('done');
-  console.log('hi matt');
 }
 
 function sleep(ms) {
