@@ -7,8 +7,9 @@ function main() {
   robot.moveMouseSmooth(331, 707);
   robot.mouseClick();
   sleep(1000);
+
+  robot.moveMouseSmooth(355, 732);
   robot.mouseClick();
-  sleep(1000);
   console.log('done');
   console.log('hi matt');
 }
